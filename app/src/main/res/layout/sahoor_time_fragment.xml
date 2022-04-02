@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ui.home.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/discover"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/black"
+            android:text="Sahoor and Aftar Time"
+            android:textColor="@color/gray"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="833dp"
+            android:layout_marginVertical="57dp"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="45dp"
+                    android:textSize="20sp"
+                    android:background="@color/black"
+                    android:fontFamily="@font/aclonica"
+                    android:text="  Date            Sehr Time       Iftaar Time" />
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:text="02 April 2022	   04:31	               18:35" />
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:text="03 April 2022	   04:30	               18:36" />
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="04 April 2022	  04:28	                18:37" />
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:text="05 April 2022	  04:27	                18:37" />
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:id="@+id/textView38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:text="06 April 2022	  04:25	                18:38" />
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:text="07 April 2022	  04:24	                18:39" />
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:id="@+id/textView45"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:text="08 April 2022	  04:22	                18:40" />
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:id="@+id/textView42"
+                    android:layout_width="match_parent"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="09 April 2022	  04:21	                18:40" />
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:id="@+id/textView39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:text="10 April 2022	  04:19	                18:41" />
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:id="@+id/textView37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:text="12 April 2022	  04:16	                18:43" />
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:id="@+id/textView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:text="13 April 2022	  04:15	                18:43" />
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:id="@+id/textView34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:text="14 April 2022	  04:13	                18:44" />
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:id="@+id/textView36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:text="15 April 2022	  04:12	                18:45" />
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:text="16 April 2022	  04:10	                18:46" />
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:id="@+id/textView35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:text="17 April 2022	  04:09	                18:46" />
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:id="@+id/textView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:text="18 April 2022	  04:08	                18:47" />
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:text="19 April 2022	  04:06	                18:48" />
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:id="@+id/textView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:text="20 April 2022	  04:05	                18:49" />
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:text="21 April 2022	  04:03	                18:49" />
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:id="@+id/textView30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:text="22 April 2022	  04:02	                18:50" />
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:text="23 April 2022	  04:00	                18:51" />
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:id="@+id/textView33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:text="24 April 2022	  03:59	                18:52" />
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

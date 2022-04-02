@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="Guide"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/purple_500"
+                android:gravity="center"
+                android:text="WHAT IS RAMADAN 2022"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The first night of Ramadan will begin after sunset on Friday, April 1. It will end on the evening of Sunday, May 1.
+It is always held on the 9th month of the Islamic lunar calendar — a calendar that is based on the phases of the moon.
+The 12 months of this calendar add up to 354 days: 11 days shorter than the standard Gregorian calendar.
+Because of this, the Islamic Lunar calendar moves backwards 11 days each year.
+So, every year, the first day of Ramadan falls 11 days earlier. "
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView222"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/purple_500"
+                android:gravity="center"
+                android:text="What is Ramadan? "
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ramadan is the most sacred month of the year for Muslims.
+
+During its 29 to 30 days, Muslims fast every day from sunrise to sunset.
+
+When the sun sets, there is a communal meal called Iftar where you break your fast, typically with your family or friends.
+
+But the month of Ramadan is about more than just fasting.
+
+Doing good deeds such as charity, increasing your generosity and abstaining from sinful acts, such as gossip, are all important traits of Ramadan.
+
+It is a month of self-reflection and a way for Muslims to develop positive habits that can be continued and encouraged once Ramadan is over."
+                android:textColor="@color/gray"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView2222"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/purple_500"
+                android:gravity="center"
+                android:text="What do Muslims do during Ramadan?"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Zathia Bazeer, 25, relocated to Brisbane from Melbourne this year to complete a journalism fellowship.
+
+While her typical Ramadan practices would involve going to mosques and households with family and friends, 2022 will be different.
+This year, Ramadan will be a little lonely, she said. I'll miss the community events we would go to in Melbourne, she said.
+In a way, the 2021 lockdown was good because it meant my whole family was at home.We got to break fast together, without getting caught up in work or any distractions.
+"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView22222"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/purple_500"
+                android:gravity="center"
+                android:text="What happens after Ramadan? "
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="After the fasting, comes the feasting.
+
+Ending a month of fasting, Muslims celebrate with a three-day festival called Eid al-Fitr, or Festival of Breaking the Fast, and wish each other Eid Mubarak meaning: Have a blessed Eid.
+During Eid, Muslims have family, friends and neighbours over, indulging them in a feast and eating traditional foods only made during this time.
+My favourite thing about Ramadan is breaking fast together and celebrating Eid at the end of the month, Zathia said.
+We get to wear cultural clothing, exchange gifts and be around family."
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView222222"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/purple_500"
+                android:gravity="center"
+                android:text="What are the rules of Ramadan?"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="During Ramadan, Muslims don't eat food or drink any liquids from sunrise to sunset.
+
+Those participating will usually wake up early to eat a big meal so that they won't be hungry throughout the day.
+And those who don't wake up early have a big dinner before going to bed.
+It's important to note that not every Muslim will fast this Ramadan. Young children and the elderly are exempt from fasting, along with those who are:
+Sick
+Pregnant
+Nursing
+Menstruating
+Travelling long distances
+But what happens if you miss a fast? You can make up for it by fasting at a later date.
+If you can't fast because of health reasons, it is encouraged you donate food or money to the poor instead. "
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

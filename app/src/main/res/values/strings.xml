@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Ramdan App</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Sahoor Aftar</string>
+    <string name="menu_gallery">Prayer Time</string>
+    <string name="menu_slideshow">Dua</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Prayer Time</string>
+    <string name="notification">Notification</string>
+    <string name="message">Message</string>
+    <string name="Notification">Notifications</string>
+    <string name="messages">Messages</string>
+    <string name="notificationF">Notification Fragment</string>
+    <string name="this_is_search_fragment">This is Search Fragment</string>
+    <string name="notificationsFragment">Notifications</string>
+    <string name="HomeFragment">home</string>
+    <string name="todo">TODO</string>
+    <string name="todoo">TODO</string>
+    <string name="location">Location</string>
+    <string name="_00">$00</string>
+    <string name="name">Name</string>
+
+    <string-array name="arabic">
+
+     <item>ٱلْرَّحْمَـانُ</item>
+        <item>ٱلْرَّحِيْمُ</item>
+        <item>ٱلْمَلِكُ</item>
+        <item>ٱلْقُدُّوسُ</item>
+        <item>	ٱلْسَّلَامُ</item>
+        <item>ٱلْمُؤْمِنُ</item>
+        <item>ٱلْمُهَيْمِنُ</item>
+        <item>ٱلْعَزِيزُ</item>
+        <item>ٱلْجَبَّارُ</item>
+        <item>ٱلْمُتَكَبِّرُ</item>
+    </string-array>
+
+    <string-array name="english">
+        <item>AR-RAHMAAN</item>
+        <item>AR-RAHEEM</item>
+        <item>AL-MALIK</item>
+        <item>AL-QUDDUS</item>
+        <item>AS-SALAM</item>
+        <item>AL-MU’MIN</item>
+        <item>AL-MUHAYMIN</item>
+        <item>AL-AZEEZ</item>
+        <item>AL-JABBAR</item>
+        <item>AL-MUTAKABBIR</item>
+
+    </string-array>
+
+
+
+
+</resources>

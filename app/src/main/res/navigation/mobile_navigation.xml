@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.laundryui.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/sahoor_time_fragment" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.laundryui.ui.gallery.GalleryFragment"
+        android:label="Prayer Time"
+        tools:layout="@layout/prayer_time_fragment" />
+    <fragment
+        android:id="@+id/name"
+        android:name="com.example.laundryui.names_fragment"
+        android:label="99 Names of ALLAH"
+        tools:layout="@layout/names_fragment" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.laundryui.ui.slideshow.SlideshowFragment"
+        android:label="Dua"
+        tools:layout="@layout/dua_fragment" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.laundryui.SettingFragment"
+        android:label="Ramadan Guide"
+        tools:layout="@layout/ramazan_guide_fragment" />
+</navigation>
